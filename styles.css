@@ -1,0 +1,260 @@
+/* Custom styles */
+.hero {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 0 100px;
+    margin-bottom: 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero .lead {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.navbar {
+    padding: 1.2rem 0;
+    background: rgba(44, 62, 80, 0.98) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white !important;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1.2rem !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3498db !important;
+    transform: translateY(-2px);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Template cards */
+.card {
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    background: white;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 1.8rem;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.8rem;
+    color: #555;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.list-unstyled li:hover {
+    color: #2980b9;
+    transform: translateX(5px);
+}
+
+/* Template section styling */
+#templates {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+#templates .container {
+    max-width: 1280px;
+}
+
+#templates .row {
+    margin-top: 2rem;
+    gap: 1.5rem 0;
+}
+
+/* Search bar styles */
+.search-container {
+    max-width: 450px;
+    margin: 2.5rem auto;
+    position: relative;
+}
+
+.input-group {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    overflow: hidden;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.input-group:hover, .input-group:focus-within {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.input-group .form-control {
+    border: none;
+    padding: 20px 25px;
+    font-size: 1.1rem;
+    border-radius: 50px 0 0 50px;
+    transition: all 0.3s ease;
+}
+
+.input-group .form-control:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #f8f9fa;
+}
+
+.input-group .btn {
+    padding: 15px 35px;
+    border-radius: 0 50px 50px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background: #3498db;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.input-group .btn:hover {
+    background: #2980b9;
+    transform: translateX(2px);
+}
+
+.input-group .btn i {
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+/* Hide templates that don't match search */
+.template-card.hidden {
+    display: none;
+}
+
+/* Footer improvements */
+footer {
+    background: #2c3e50 !important;
+    padding: 40px 0 !important;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+footer a {
+    color: #3498db !important;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #2980b9 !important;
+    text-decoration: none !important;
+    opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 0 60px;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero .lead {
+        font-size: 1.2rem;
+    }
+    
+    .search-container {
+        max-width: 90%;
+    }
+    
+    .input-group .form-control {
+        padding: 15px 20px;
+        font-size: 1rem;
+    }
+    
+    .input-group .btn {
+        padding: 15px 25px;
+        font-size: 1rem;
+    }
+    
+    .card-body {
+        padding: 1.5rem;
+    }
+}
+
+/* Loading animation for search */
+.searching .card {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
