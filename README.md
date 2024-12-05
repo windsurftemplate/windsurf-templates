@@ -1,6 +1,6 @@
 # Windsurf Templates
 
-A modern collection of website templates and tutorials to help you get started with web development. Whether you're building a business website, an online portfolio, or learning to windsurf, we've got you covered!
+A collection of website templates and tutorials to help you get started with web development on Windsurf
 
 ## Features
 
@@ -26,7 +26,7 @@ A modern collection of website templates and tutorials to help you get started w
 - **Windsurfing Tutorials**:
   - Beginner guides for equipment and safety
   - Intermediate techniques for tacking and harness use
-  - Advanced lessons on planing and jumping
+  - Advanced lessons on planning and jumping
 
 - **Web Development Tutorials**:
   - HTML & CSS fundamentals
@@ -50,61 +50,11 @@ A modern collection of website templates and tutorials to help you get started w
    - Follow our customization tutorials
    - Deploy your website using GitHub Pages
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- Bootstrap 5
-- Font Awesome Icons
-- JavaScript
-
-## Dependencies
-
-```json
-{
-  "bootstrap": "^5.3.0",
-  "font-awesome": "^6.0.0"
-}
-```
-
-## Project Structure
-
-```
-windsurf-templates/
-├── index.html
-├── styles.css
-├── script.js
-├── templates/
-│   ├── business.html
-│   ├── ecommerce.html
-│   ├── portfolio.html
-│   └── ...
-├── tutorials/
-│   ├── windsurfing.html
-│   ├── webdev.html
-│   └── tutorials.css
-└── images/
-    ├── templates/
-    └── tutorials/
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
-
-For support or inquiries, please open an issue in the GitHub repository.
 
 ## Acknowledgments
 
-- Bootstrap team for their excellent framework
-- Font Awesome for the comprehensive icon set
 - All contributors who help improve these templates
